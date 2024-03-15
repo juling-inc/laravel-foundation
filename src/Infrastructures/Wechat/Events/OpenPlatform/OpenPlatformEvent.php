@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Wechat\Events\OpenPlatform;
+namespace Juling\Foundation\Infrastructures\Wechat\Events\OpenPlatform;
 
 abstract class OpenPlatformEvent
 {

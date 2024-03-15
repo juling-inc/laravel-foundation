@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Filesystem\Obs\Internal\Common;
+namespace Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Common;
 
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\ToArrayInterface;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\ToArrayInterface;
 use Juling\Filesystem\Obs\Internal\Common\Collection;
 
 class Model implements \ArrayAccess, \IteratorAggregate, \Countable, ToArrayInterface

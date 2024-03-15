@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Pinyin;
+namespace Juling\Foundation\Infrastructures\Pinyin;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 use Overtrue\Pinyin\Pinyin;

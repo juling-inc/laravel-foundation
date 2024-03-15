@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Filesystem\Obs;
+namespace Juling\Foundation\Infrastructures\Filesystem\Obs;
 
 use Illuminate\Support\Facades\Log;
 use GuzzleHttp\Psr7\Request;

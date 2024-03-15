@@ -1,15 +1,15 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Filesystem\Obs\Internal;
+namespace Juling\Foundation\Infrastructures\Filesystem\Obs\Internal;
 
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\Exception\RequestException;
 use Illuminate\Support\Facades\Log;
-use App\Foundation\Infrastructures\Filesystem\Obs\ObsException;
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\Model;
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Resource\Constants;
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\CheckoutStream;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\ObsException;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\Model;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Resource\Constants;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\CheckoutStream;
 use Psr\Http\Message\StreamInterface;
 
 trait GetResponseTrait

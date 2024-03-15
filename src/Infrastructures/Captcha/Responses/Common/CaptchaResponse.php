@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Foundation\Infrastructures\Captcha\Responses\Common;
+namespace Juling\Foundation\Infrastructures\Captcha\Responses\Common;
 
-use App\Foundation\Infrastructures\DevTools\stubs\app\Support\ArrayHelper;
+use Juling\Foundation\Infrastructures\DevTools\stubs\app\Support\ArrayHelper;
 use OpenApi\Attributes as OA;
 
 #[OA\Schema(schema: 'CaptchaResponse')]

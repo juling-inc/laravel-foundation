@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace App\Foundation\Infrastructures\Wechat\Middleware;
+namespace Juling\Foundation\Infrastructures\Wechat\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
@@ -17,7 +17,7 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Str;
 use JetBrains\PhpStorm\Pure;
-use App\Foundation\Infrastructures\Wechat\Events\WeChatUserAuthorized;
+use Juling\Foundation\Infrastructures\Wechat\Events\WeChatUserAuthorized;
 
 /**
  * 仅适用于微信公众号, 企业微信的网页应用。

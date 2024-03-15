@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Social;
+namespace Juling\Foundation\Infrastructures\Social;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 use Overtrue\Socialite\SocialiteManager;

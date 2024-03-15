@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Foundation\Infrastructures\Pay\Facades;
+namespace Juling\Foundation\Infrastructures\Pay\Facades;
 
 use Illuminate\Support\Facades\Facade;
 use Yansongda\Pay\Provider\Alipay;

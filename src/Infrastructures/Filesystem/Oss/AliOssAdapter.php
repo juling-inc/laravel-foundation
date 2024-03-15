@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Filesystem\Oss;
+namespace Juling\Foundation\Infrastructures\Filesystem\Oss;
 
 use League\Flysystem\Adapter\AbstractAdapter;
 use League\Flysystem\AdapterInterface;

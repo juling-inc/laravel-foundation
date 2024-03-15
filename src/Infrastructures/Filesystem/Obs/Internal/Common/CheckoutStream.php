@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Filesystem\Obs\Internal\Common;
+namespace Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Common;
 
 use Psr\Http\Message\StreamInterface;
 use GuzzleHttp\Psr7\StreamDecoratorTrait;
-use App\Foundation\Infrastructures\Filesystem\Obs\ObsException;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\ObsException;
 
 class CheckoutStream implements StreamInterface {
     use StreamDecoratorTrait;

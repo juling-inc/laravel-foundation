@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Filesystem\Oss\Plugins;
+namespace Juling\Foundation\Infrastructures\Filesystem\Oss\Plugins;
 
 use League\Flysystem\Config;
 use League\Flysystem\Plugin\AbstractPlugin;

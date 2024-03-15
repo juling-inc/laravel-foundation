@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Foundation\Infrastructures\Auth\Exception;
+namespace Juling\Foundation\Infrastructures\Auth\Exception;
 
 use RuntimeException;
 

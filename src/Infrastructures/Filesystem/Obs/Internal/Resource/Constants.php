@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Filesystem\Obs\Internal\Resource;
+namespace Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Resource;
 
 class Constants {
     const ALLOWED_RESOURCE_PARAMTER_NAMES = [

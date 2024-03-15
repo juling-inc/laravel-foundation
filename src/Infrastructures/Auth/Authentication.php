@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Foundation\Infrastructures\Auth;
+namespace Juling\Foundation\Infrastructures\Auth;
 
 class Authentication
 {

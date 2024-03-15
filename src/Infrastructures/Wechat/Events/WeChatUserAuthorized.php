@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace App\Foundation\Infrastructures\Wechat\Events;
+namespace Juling\Foundation\Infrastructures\Wechat\Events;
 
 use Illuminate\Queue\SerializesModels;
 use Overtrue\Socialite\User;

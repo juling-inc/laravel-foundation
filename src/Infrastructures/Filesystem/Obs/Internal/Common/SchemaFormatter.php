@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Filesystem\Obs\Internal\Common;
+namespace Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Common;
 
 use Juling\Filesystem\Obs\Internal\Common\InvalidArgumentException;
 use Juling\Filesystem\Obs\Internal\Common\unknown;

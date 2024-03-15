@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace App\Foundation\Infrastructures\Region\Controllers\Common;
+namespace Juling\Foundation\Infrastructures\Region\Controllers\Common;
 
 use App\Api\Common\Controllers\BaseController;
-use App\Foundation\Infrastructures\Region\Requests\RegionRequest;
-use App\Foundation\Infrastructures\Region\Responses\RegionResponse;
+use Juling\Foundation\Infrastructures\Region\Requests\RegionRequest;
+use Juling\Foundation\Infrastructures\Region\Responses\RegionResponse;
 use App\Services\RegionService;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Cache;

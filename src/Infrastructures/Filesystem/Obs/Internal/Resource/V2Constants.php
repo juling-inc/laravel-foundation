@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Filesystem\Obs\Internal\Resource;
+namespace Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Resource;
 
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Resource\Constants;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Resource\Constants;
 
 class V2Constants extends Constants {
     const FLAG = 'AWS';

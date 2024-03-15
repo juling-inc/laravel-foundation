@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Foundation\Infrastructures\SMS\Services;
+namespace Juling\Foundation\Infrastructures\SMS\Services;
 
 use Exception;
 

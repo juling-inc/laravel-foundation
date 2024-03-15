@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Foundation\Infrastructures\Database\Controllers\Admin;
+namespace Juling\Foundation\Infrastructures\Database\Controllers\Admin;
 
 use App\Api\Admin\Controllers\BaseController;
 use Illuminate\Contracts\Support\Renderable;

@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Filesystem\Obs\Internal\Signature;
+namespace Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Signature;
 
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\Model;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\Model;
 
 interface SignatureInterface
 {

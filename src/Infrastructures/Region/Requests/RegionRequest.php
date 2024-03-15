@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Foundation\Infrastructures\Region\Requests;
+namespace Juling\Foundation\Infrastructures\Region\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 use OpenApi\Attributes as OA;

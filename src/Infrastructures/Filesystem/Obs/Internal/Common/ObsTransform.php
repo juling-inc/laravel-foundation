@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Filesystem\Obs\Internal\Common;
+namespace Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Common;
 
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\ITransform;
-use App\Foundation\Infrastructures\Filesystem\Obs\ObsClient;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\ITransform;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\ObsClient;
 
 class ObsTransform implements ITransform {
     private static $instance;

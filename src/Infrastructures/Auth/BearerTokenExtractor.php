@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Foundation\Infrastructures\Auth;
+namespace Juling\Foundation\Infrastructures\Auth;
 
-use App\Foundation\Infrastructures\Auth\Exception\ExtractTokenException;
+use Juling\Foundation\Infrastructures\Auth\Exception\ExtractTokenException;
 
 class BearerTokenExtractor implements TokenExtractorInterface
 {

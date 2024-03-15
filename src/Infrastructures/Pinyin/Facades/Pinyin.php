@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Pinyin\Facades;
+namespace Juling\Foundation\Infrastructures\Pinyin\Facades;
 
 use Illuminate\Support\Facades\Facade;
 use Overtrue\Pinyin\Pinyin as Accessor;

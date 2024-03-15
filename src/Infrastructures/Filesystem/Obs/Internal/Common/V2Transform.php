@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Filesystem\Obs\Internal\Common;
+namespace Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Common;
 
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\ITransform;
-use App\Foundation\Infrastructures\Filesystem\Obs\ObsClient;
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Resource\V2Constants;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\ITransform;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\ObsClient;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Resource\V2Constants;
 
 class V2Transform implements ITransform{
     private static $instance;

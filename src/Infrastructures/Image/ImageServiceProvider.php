@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Foundation\Infrastructures\Image;
+namespace Juling\Foundation\Infrastructures\Image;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Wechat;
+namespace Juling\Foundation\Infrastructures\Wechat;
 
 use Illuminate\Support\Facades\Facade;
 

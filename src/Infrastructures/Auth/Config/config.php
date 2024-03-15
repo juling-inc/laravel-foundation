@@ -1,6 +1,6 @@
 <?php
 
-use App\Foundation\Infrastructures\Auth\JWT;
+use Juling\Foundation\Infrastructures\Auth\JWT;
 
 return [
     // 签名算法

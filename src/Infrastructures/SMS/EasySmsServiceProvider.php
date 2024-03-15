@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Foundation\Infrastructures\SMS;
+namespace Juling\Foundation\Infrastructures\SMS;
 
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;

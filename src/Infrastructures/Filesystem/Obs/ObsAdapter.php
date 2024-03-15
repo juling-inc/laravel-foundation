@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Filesystem\Obs;
+namespace Juling\Foundation\Infrastructures\Filesystem\Obs;
 
-use App\Foundation\Infrastructures\Filesystem\Obs\ObsClient;
-use App\Foundation\Infrastructures\Filesystem\Obs\ObsException;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\ObsClient;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\ObsException;
 use League\Flysystem\Adapter\AbstractAdapter;
 use League\Flysystem\Adapter\Polyfill\NotSupportingVisibilityTrait;
 use League\Flysystem\Config;

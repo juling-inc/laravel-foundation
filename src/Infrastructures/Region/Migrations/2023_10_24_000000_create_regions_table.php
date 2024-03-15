@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Region\Migrations;
+namespace Juling\Foundation\Infrastructures\Region\Migrations;
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;

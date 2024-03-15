@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Wechat\Traits;
+namespace Juling\Foundation\Infrastructures\Wechat\Traits;
 
 use EasyWeChat\OpenPlatform\Application;
-use App\Foundation\Infrastructures\Wechat\Events\OpenPlatform\Authorized;
-use App\Foundation\Infrastructures\Wechat\Events\OpenPlatform\AuthorizeUpdated;
-use App\Foundation\Infrastructures\Wechat\Events\OpenPlatform\Unauthorized;
-use App\Foundation\Infrastructures\Wechat\Events\OpenPlatform\VerifyTicketRefreshed;
+use Juling\Foundation\Infrastructures\Wechat\Events\OpenPlatform\Authorized;
+use Juling\Foundation\Infrastructures\Wechat\Events\OpenPlatform\AuthorizeUpdated;
+use Juling\Foundation\Infrastructures\Wechat\Events\OpenPlatform\Unauthorized;
+use Juling\Foundation\Infrastructures\Wechat\Events\OpenPlatform\VerifyTicketRefreshed;
 
 trait HandleOpenPlatformServerEvents
 {

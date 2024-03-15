@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Foundation\Infrastructures\Pay;
+namespace Juling\Foundation\Infrastructures\Pay;
 
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Foundation\Application;

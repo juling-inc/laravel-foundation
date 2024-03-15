@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Wechat\Events\OpenPlatform;
+namespace Juling\Foundation\Infrastructures\Wechat\Events\OpenPlatform;
 
-use App\Foundation\Infrastructures\Wechat\Events\OpenPlatform\OpenPlatformEvent;
+use Juling\Foundation\Infrastructures\Wechat\Events\OpenPlatform\OpenPlatformEvent;
 
 /**
  * @method string getAppId()

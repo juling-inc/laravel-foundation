@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace App\Foundation\Infrastructures\Wechat;
+namespace Juling\Foundation\Infrastructures\Wechat;
 
 use EasyWeChat\MiniApp\Application as MiniApp;
 use EasyWeChat\OfficialAccount\Application as OfficialAccount;

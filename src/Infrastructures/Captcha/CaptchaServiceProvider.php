@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Captcha;
+namespace Juling\Foundation\Infrastructures\Captcha;
 
 use Illuminate\Support\ServiceProvider;
 

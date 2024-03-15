@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Filesystem\Cos;
+namespace Juling\Foundation\Infrastructures\Filesystem\Cos;
 
 use GuzzleHttp\Client as HttpClient;
 use League\Flysystem\Adapter\AbstractAdapter;

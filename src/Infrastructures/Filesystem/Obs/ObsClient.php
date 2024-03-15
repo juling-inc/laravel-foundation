@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Filesystem\Obs;
+namespace Juling\Foundation\Infrastructures\Filesystem\Obs;
 
 use Monolog\Logger;
 use GuzzleHttp\Client;
@@ -10,10 +10,10 @@ use GuzzleHttp\Handler\CurlMultiHandler;
 use GuzzleHttp\Handler\Proxy;
 use GuzzleHttp\Promise\Promise;
 use Illuminate\Support\Facades\Log;
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Resource\Constants;
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\SdkCurlFactory;
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\SdkStreamHandler;
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\Model;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Resource\Constants;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\SdkCurlFactory;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\SdkStreamHandler;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\Model;
 
 define('DEBUG', Logger::DEBUG);
 define('INFO', Logger::INFO);
@@ -196,8 +196,8 @@ class ObsClient
     const ObjectRemovedDelete = 'ObjectRemoved:Delete';
     const ObjectRemovedDeleteMarkerCreated = 'ObjectRemoved:DeleteMarkerCreated';
 
-    use \App\Foundation\Infrastructures\Filesystem\Obs\Internal\SendRequestTrait;
-    use \App\Foundation\Infrastructures\Filesystem\Obs\Internal\GetResponseTrait;
+    use \Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\SendRequestTrait;
+    use \Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\GetResponseTrait;
 
     private $factorys;
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Filesystem\Obs\Internal\Signature;
+namespace Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Signature;
 
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Resource\Constants;
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\Model;
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Resource\V2Constants;
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Signature\AbstractSignature;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Resource\Constants;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\Model;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Resource\V2Constants;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Signature\AbstractSignature;
 
 class DefaultSignature extends AbstractSignature
 {

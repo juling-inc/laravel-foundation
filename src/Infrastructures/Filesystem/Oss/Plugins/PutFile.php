@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Filesystem\Oss\Plugins;
+namespace Juling\Foundation\Infrastructures\Filesystem\Oss\Plugins;
 
 use Illuminate\Support\Facades\Log;
 use League\Flysystem\Config;

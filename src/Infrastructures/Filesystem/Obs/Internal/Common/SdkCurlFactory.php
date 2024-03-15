@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Filesystem\Obs\Internal\Common;
+namespace Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Common;
 
 use GuzzleHttp\Psr7;
 use GuzzleHttp\Psr7\LazyOpenStream;

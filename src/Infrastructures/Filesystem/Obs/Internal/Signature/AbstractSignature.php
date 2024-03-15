@@ -1,16 +1,16 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Filesystem\Obs\Internal\Signature;
+namespace Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Signature;
 
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Signature\SignatureInterface;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Signature\SignatureInterface;
 use Illuminate\Support\Facades\Log;
 use GuzzleHttp\Psr7\Stream;
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Resource\Constants;
-use App\Foundation\Infrastructures\Filesystem\Obs\ObsException;
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\SchemaFormatter;
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\Model;
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\ObsTransform;
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\V2Transform;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Resource\Constants;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\ObsException;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\SchemaFormatter;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\Model;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\ObsTransform;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\V2Transform;
 use Psr\Http\Message\StreamInterface;
 
 abstract class AbstractSignature implements SignatureInterface

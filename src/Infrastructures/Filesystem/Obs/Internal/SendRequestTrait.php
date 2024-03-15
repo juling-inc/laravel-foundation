@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Foundation\Infrastructures\Filesystem\Obs\Internal;
+namespace Juling\Foundation\Infrastructures\Filesystem\Obs\Internal;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7;
@@ -9,13 +9,13 @@ use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Exception\ConnectException;
 use Illuminate\Support\Facades\Log;
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\Model;
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Resource\V2Constants;
-use App\Foundation\Infrastructures\Filesystem\Obs\ObsException;
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Signature\V4Signature;
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Signature\DefaultSignature;
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Resource\Constants;
-use App\Foundation\Infrastructures\Filesystem\Obs\Internal\Resource\V2RequestResource;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Common\Model;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Resource\V2Constants;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\ObsException;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Signature\V4Signature;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Signature\DefaultSignature;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Resource\Constants;
+use Juling\Foundation\Infrastructures\Filesystem\Obs\Internal\Resource\V2RequestResource;
 use Juling\Filesystem\Obs\Http\Message\StreamInterface;
 use function GuzzleHttp\Psr7;
 
