@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace Juling\Foundation\Enums;
 
-use Juling\Foundation\Contracts\CodeEnumInterface;
+use Juling\Foundation\Contracts\EnumMethodInterface;
 
 /**
  * 全局异常枚举
  */
-enum ErrorCodeEnum: int implements CodeEnumInterface
+enum ErrorEnumMethod: int implements EnumMethodInterface
 {
     use EnumMethods;
 

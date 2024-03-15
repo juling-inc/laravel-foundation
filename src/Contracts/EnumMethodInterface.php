@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Juling\Foundation\Contracts;
 
-interface CodeEnumInterface
+interface EnumMethodInterface
 {
     /**
      * 获取枚举名
