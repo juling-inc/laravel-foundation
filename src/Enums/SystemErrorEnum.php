@@ -7,9 +7,9 @@ namespace Juling\Foundation\Enums;
 use Juling\Foundation\Contracts\EnumMethodInterface;
 
 /**
- * 全局异常枚举
+ * 全局枚举
  */
-enum ErrorEnumMethod: int implements EnumMethodInterface
+enum SystemErrorEnum: int implements EnumMethodInterface
 {
     use EnumMethods;
 

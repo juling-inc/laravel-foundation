@@ -9,7 +9,7 @@ use Juling\Foundation\Contracts\EnumMethodInterface;
 /**
  * 状态
  */
-enum StatusEnumMethod: int implements EnumMethodInterface
+enum StatusEnum: int implements EnumMethodInterface
 {
     use EnumMethods;
 
